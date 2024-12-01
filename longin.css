@@ -1,0 +1,95 @@
+body{
+    font-size: 14px;
+    line-height: 1.5em;
+    background-image: url("../longin.img/background.png");
+    background-size: cover;/*背景图片自适应*/
+    
+}
+
+/*输入框*/
+.registerarea{
+    width: 350px;
+    height: 380px;
+    margin: 200px auto 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/*输入框校徽图片大小*/
+.registerarea img{
+    width: 310px;
+    height: 100px;
+    margin: 15px 15px 0 15px;
+}
+
+/*设置div存放form表单与button*/
+.registerarea .form-box{
+    width: 310px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+/*form表单元素*/
+form{
+    position: relative;
+    padding: 15px;
+    margin-left: 10px;
+    
+}
+
+/*form表单学号+密码*/
+.form-box label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #787878;
+} 
+
+form input{
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px;
+    width:91%;
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+}
+
+/*鼠标划过出现边框+改变背景颜色*/
+form input:hover{
+    background-color: #fff;
+    border: 1px solid #55b3b5;
+}
+
+/* small 标签样式（错误信息） */
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none; /* 默认隐藏 */
+}
+
+.form-box button{
+    background-color: #55b3b5;
+    border: 0;
+    border-radius: 5px;
+    padding: 13px;
+    margin: 2px 26px;
+    width: 80%;
+    display: block;
+    transform: all 0.3s ease;/*样式属性发生变化时都能应用过度效果，过渡效果持续0.3s，ease动画节奏*/
+    color: #fff;
+    font-size: 15px;
+}
+
+/*鼠标划过button颜色变换*/
+.form-box button:hover{
+    background-color: #4da2a3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+

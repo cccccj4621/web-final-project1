@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*css3盒子模型*/
+}
+
+em,
+i{
+    font-style: normal;
+}
+
+li{
+    list-style: none;/*去掉圆点*/
+}
+
+img{
+    border: 0;
+    vertical-align: middle;/*取消图片底侧空白缝隙问题*/
+}
+
+button{
+    cursor: pointer;/*鼠标经过button会变成小手*/
+}
+
+a{
+    color: #666;
+}
